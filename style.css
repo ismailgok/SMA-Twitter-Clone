@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: #D9D9D9;
+}
+
+
+html,body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.content{
+    height: 96%;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.img{
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+    display:flex;
+    height: 100%;
+    width: 55%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.img i{
+  color: white;
+  font-size: 25rem;
+}
+.loginArea{
+    display:flex;
+    height: 100%;
+    width: 45%;
+    flex-grow: 1;
+    align-items: center;
+    background: black;
+
+}
+.SignArea{
+    display:flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    gap : 15px;   
+    padding: 50px 20px 20px 20px;
+    word-spacing: 0px;
+    white-space: pre-wrap;   
+    position: relative;
+}
+
+.SignArea h1 {
+  display: flex;
+  align-items: center;
+  font-size: 92px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-break: 84px;
+  flex-grow: 2;
+  flex-shrink: 0;
+}
+.SignArea h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none solid rgb(217, 217, 217);
+  white-space: pre-wrap;
+  word-spacing: 0px;
+  flex-grow:1;
+}
+.SignArea p {
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration: none solid rgb(110, 118, 125);
+  white-space: pre-wrap;
+  word-spacing: 0px;
+}
+.SignArea h5 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none solid rgb(217, 217, 217);
+  white-space: pre-wrap;
+  word-spacing: 0px;
+}
+
+.SignArea .logo{
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  flex-grow:0;
+}
+
+
+.logo i{
+  font-size: 4rem;
+  color: #00acee;
+}
+.signBtn{
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+
+}
+
+.signBtn {
+  display: flex;
+  flex-direction: column;
+  max-width:50%;
+  
+}
+
+.signBtn button{
+  width: 100%;
+  padding:10px 20px;
+  color:white;
+  background: #1D9BF0;
+  outline: none;
+  border:none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 1.0rem;
+  font-weight:700; 
+  overflow: hidden;
+  margin-bottom:20px;
+  transition: all 0.3s ease;
+}
+.signBtn button:hover{
+  background:rgb(11, 113, 182);
+}
+.loginBtn {
+  display:flex;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding:7px;
+  background: #000000;
+  color: #1DA1F2;
+  width: 300px;
+  font-size: 1.0rem;
+  font-weight:700; 
+  border-radius: 40px;
+  outline: none;
+  border: 1px solid #1DA1F2;
+  transition: all 0.3s ease;
+  justify-content: center;
+
+ 
+}
+
+.loginBtn:hover {
+  background: rgb(83,100,113);
+
+  
+}
+
+
+
+/* FOOTER START */
+
+.footer {
+  background: black;
+  height: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.footer ul {
+  display: flex;
+  margin: auto;
+}
+
+.footer ul li {
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.footer ul li a, p {
+  color: #6e767d;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: none solid rgb(110, 118, 125);
+  white-space: pre-wrap;
+  word-spacing: 0px;
+}
+
